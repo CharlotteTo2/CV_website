@@ -1,0 +1,364 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden; 
+    scroll-behavior: smooth;
+}
+
+.section-title{
+    font-size: 27.2px;
+    font-weight: bolder;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.subtitle{
+    font-size: 22.4px;
+}
+
+.btn{
+    border-radius: 2px !important;
+    border: none !important;
+    padding: 11px 25px !important;
+    font-size: 13px !important;
+    font-weight: 700 !important;
+    border: 0.5px solid white !important;
+
+
+    background-color: #ffffff !important;
+    color: #000000 !important;
+}
+
+.btn:hover{
+    text-decoration: none;
+}
+
+
+
+.light-text{
+    color: white;
+}
+
+.line{
+    background-color: white;
+    width: 4rem;
+    height: 0.25rem;
+
+    margin-top: 2.8rem;
+    margin-bottom: 2.8rem;
+}
+
+
+/* Navbar */
+.navbar{
+    background-color: rgba(255, 255, 255, 0.94);
+    filter: drop-shadow(2px 2px 2px #ababab);
+}
+
+.nav-link{
+    padding-right: 1.7rem !important;
+}
+
+.navbar-toggler{
+    border: none !important;
+}
+
+.navbar-toggler:focus{
+    outline: none !important;
+}
+
+
+/* intro */
+
+.intro{
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+    background-image: url(images/intro-bg.svg);
+    background-position: center top;
+    background-size: cover;
+    height: 100%;
+    filter: 1;
+
+
+}
+
+.intro-title{
+    margin: auto;
+}
+
+.subtitle-intro{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+
+.btn-intro{
+    margin: 0.5rem;
+}
+
+.btn-intro:hover, .btn-intro:active, .btn-intro:focus{
+    background-color: #000000 !important;
+    color: #ffffff !important;
+    box-shadow: none !important;
+
+}
+
+
+/* about */
+.about-section{
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+.charlotte-img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+
+    display: block;
+    width: 300px;
+}
+
+.about-title{
+    margin-bottom: 8px;
+}
+
+.about-subtitle{
+    margin-bottom: 15px;
+}
+
+.about-text{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top:auto;
+    width: 300px;
+}
+
+/* skills */
+.row{
+    margin: 0 !important;
+}
+
+#skills{
+    background-color: #f5f5f5;
+    padding-top: 30px;
+}
+
+.skill{
+    padding: 13px;
+}
+
+.skills-icon{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skills-text{
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* awards */
+
+.section-title-award{
+    margin-top: 27px;
+    margin-bottom: 0;
+}
+
+.award{
+    margin-bottom: 30px;
+}
+
+.award-line{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    background-color: black;
+}
+
+.award-text{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.award-title{
+    font-size: 21px;
+}
+
+.award-date{
+    font-size: 16px;
+    color: rgb(70, 70, 70);
+}
+
+.award-description{
+    font-size: 16px;
+}
+
+/* portfolio */
+#Portfolio{
+    background-color: rgb(29, 29, 29);
+    color: white;
+    padding: 5px;
+}
+
+.port-title{
+    text-align: center;
+    padding-bottom: 0;
+    padding-top: 30px;
+    margin:0;
+    margin-bottom: 15px;
+}
+
+.port-subtitle{
+    font-size: 19px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.port-img{
+    height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.port-name{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 13px;
+    margin-bottom: 50px;
+}
+
+/* footer
+.footer{
+    margin-top: 60px;
+    background-color: rgb(24, 24, 24);
+    padding: 15px;
+}
+.footer-text{
+    display: inline;
+    margin-right: 50px;
+    color: white;
+} */
+
+
+@media (min-width: 480px){
+    .btn{
+        font-size: 14px !important;
+    }
+
+    /* intro */
+    .intro-title{
+        font-size: 32px;
+    }
+
+    .subtitle-intro{
+        margin-top: 25px;
+        letter-spacing: 1.5px;
+    }
+
+    .btn-break{
+        display: none;
+    }
+
+    /* about */
+    .about-text{
+        width: 400px;
+    }
+
+    .charlotte-img{
+        width: 400px;
+    }
+
+    /* award */
+    .award-title{
+        font-size: 25px;
+    }
+
+    .award-date{
+        font-size: 18px;
+    }
+
+    .award-description{
+        font-size: 19px;
+    }
+}
+
+@media (min-width: 991px){
+    .btn{
+        font-size: 16px !important;
+    }
+
+    /* intro */
+    .intro{
+        padding: 100px, auto, 100px, auto;
+    }
+
+    .intro-title{
+        font-size: 52px;
+        letter-spacing: 3.5px;
+    }
+
+    .subtitle-intro{
+        font-size: 27px;
+        letter-spacing: 1.5px;
+    }
+
+    /* about paragraph */
+    .about-text{
+        margin-left: 40px;
+    }
+
+    .about-title{
+        font-size: 30px;
+    }
+
+
+    .about-paragraph{
+        font-size: 18px;
+        margin: auto;
+    }
+
+    .charlotte-img{
+        width: 430px;
+        margin-right: 40px;
+    }
+
+    /* skills */
+
+    .skills-icon{
+        width: 130px;
+    }
+
+    /* Awards */
+    .award-text{
+        margin-left: 70px;
+    }
+
+    .award-line{
+        margin-left: 70px;
+    }
+
+    .section-title-award{
+        margin-top: 40px;
+    }
+
+    .award-title{
+        font-size: 25px;
+    }
+
+    .award-date{
+        font-size: 20px;
+    }
+
+    .award-description{
+        font-size: 21px;
+    }
+}
