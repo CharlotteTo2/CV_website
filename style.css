@@ -262,9 +262,9 @@ html{
 }
 
 .interests-text{
-    text-shadow: -1.5px 1.5px 0 #000,
-				  1.5px 1.5px 0 #000,
-				 1.5px -1.5px 0 #000;
+    text-shadow: -2px 2px 0 #000,
+				  2px 2px 0 #000,
+				 2px -2px 0 #000;
     color: white;
 }
 
