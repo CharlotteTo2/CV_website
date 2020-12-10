@@ -147,6 +147,12 @@ html{
     padding-top: 30px;
 }
 
+.section-title-skill{
+    margin-top: 0px;
+    margin-bottom: 0;
+    margin-left: 40px;
+}
+
 .skill{
     padding: 13px;
 }
@@ -202,6 +208,10 @@ html{
     font-size: 16px;
 }
 
+.carousel-control-next:hover{
+    color: red;
+}
+
 /* portfolio */
 #Portfolio{
     background-color: rgb(29, 29, 29);
@@ -239,19 +249,34 @@ html{
     margin-bottom: 13px;
 }
 
-
-/* footer
-.footer{
-    margin-top: 60px;
-    background-color: rgb(24, 24, 24);
-    padding: 15px;
+/* interests */
+#Interests{
+    padding: 100px;
+    padding-top: 0;
 }
-.footer-text{
-    display: inline;
-    margin-right: 50px;
-    color: white;
-} */
 
+.interests-img{
+    height: 600px;
+    display: block;
+    margin: auto;
+}
+
+.interests-text{
+    text-shadow: -1.5px 1.5px 0 #000,
+				  1.5px 1.5px 0 #000,
+				 1.5px -1.5px 0 #000;
+    color: white;
+}
+
+.interests-text-narrow{
+    width: 400px;
+    margin: auto;
+}
+
+.control-arrow{
+    color: black;
+    font-size: 50px;
+}
 
 @media (min-width: 480px){
     .btn{
@@ -336,6 +361,10 @@ html{
     }
 
     /* skills */
+
+    .section-title-skill{
+        margin-left: 70px;
+    }
 
     .skills-icon{
         width: 130px;
