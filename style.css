@@ -189,6 +189,8 @@ html{
 
 .award-title{
     font-size: 21px;
+    text-decoration: underline;
+
 }
 
 .award-date{
