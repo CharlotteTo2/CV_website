@@ -249,7 +249,7 @@ html{
 }
 
 /* interests */
-.carousel{
+.carousel-interests{
     margin: 10px;
     margin-top: 0;
     margin-bottom: 30px;
@@ -427,7 +427,7 @@ html{
     }
 
     /* interests */
-    .carousel{
+    .carousel-interests{
         margin: 100px;
         margin-bottom: 50px;
         margin-top: 0;
