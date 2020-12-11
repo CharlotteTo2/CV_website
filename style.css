@@ -57,6 +57,7 @@ html{
 .navbar{
     background-color: rgba(255, 255, 255, 0.94);
     filter: drop-shadow(2px 2px 2px #ababab);
+    position: sticky;
 }
 
 .nav-link{
@@ -248,7 +249,7 @@ html{
 }
 
 /* interests */
-#Interests{
+.carousel{
     padding: 10px;
     padding-top: 0;
     padding-bottom: 30px;
@@ -258,6 +259,15 @@ html{
     width: 370px;
     display: block;
     margin: auto;
+}
+
+.carousel-caption{
+    position: absolute;
+    top: 0;
+}
+
+.text-bottom{
+    top: auto;
 }
 
 .interests-text{
@@ -321,7 +331,7 @@ html{
     }
 
     /* interests */
-    #Interests{
+    .carousel{
         padding: 50px;
         padding-top: 0;
         padding-bottom: 50px;
@@ -425,10 +435,11 @@ html{
     }
 
     /* interests */
-    #Interests{
+    .carousel{
         padding: 100px;
-        padding-top: 0;
         padding-bottom: 50px;
+        padding-top: 0;
+
     }
 
     .interests-text{
