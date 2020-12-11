@@ -250,9 +250,11 @@ html{
 
 /* interests */
 .carousel{
-    padding: 10px;
-    padding-top: 0;
-    padding-bottom: 30px;
+    margin: 10px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    background-color: rgb(231, 231, 231);
+
 }
 
 .interests-img{
@@ -261,25 +263,13 @@ html{
     margin: auto;
 }
 
-.carousel-caption{
-    position: absolute;
-    top: 0;
-}
-
-.text-bottom{
-    top: auto;
-}
-
 .interests-text{
     font-size: 18px;
     color: black;
-    background-color: rgba(251, 255, 0, 0.5);
     display: inline-block;
-    width: 600px;
 }
 
 .interests-text-narrow{
-    width: 300px;
     margin: auto;
 }
 
@@ -342,13 +332,15 @@ html{
         width: auto;
     }
 
-    .interests-text{
-        width: 450px;
-        font-size: 14px;
+    .carousel-caption{
+        position: relative;
+        bottom: -5px;
+        left: 0;
+        margin: auto;
     }
 
-    .interests-text-narrow{
-        width: 250px;
+    .interests-text{
+        font-size: 14px;
     }
 
     .control-arrow{
@@ -436,25 +428,22 @@ html{
 
     /* interests */
     .carousel{
-        padding: 100px;
-        padding-bottom: 50px;
-        padding-top: 0;
-
+        margin: 100px;
+        margin-bottom: 50px;
+        margin-top: 0;
+        padding-bottom: 20px;
+        padding-top: 40px;
+        background-color: rgb(231, 231, 231);
     }
 
     .interests-text{
         font-size: 18px;
-        width: 600px;
     }
 
     .interests-img{
         height: 500px;
         width: auto;
 
-    }
-
-    .interests-text-narrow{
-        width: 300px;
     }
 
     .control-arrow{
