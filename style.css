@@ -263,10 +263,22 @@ html{
     margin: auto;
 }
 
+.carousel-caption{
+    position: relative;
+    bottom: -5px;
+    left: 0;
+    margin: auto;
+    padding: 0;
+}
+
 .interests-text{
+    padding: 10px;
+    margin: 0;
     font-size: 18px;
     color: black;
     display: inline-block;
+    overflow: visible;
+
 }
 
 .interests-text-narrow{
@@ -321,10 +333,8 @@ html{
     }
 
     /* interests */
-    .carousel{
-        padding: 50px;
-        padding-top: 0;
-        padding-bottom: 50px;
+    .carousel-interests{
+        padding: 20px;
     }
 
     .interests-img{
@@ -340,7 +350,9 @@ html{
     }
 
     .interests-text{
-        font-size: 14px;
+        font-size: 20px;
+        overflow: visible;
+
     }
 
     .control-arrow{
@@ -437,7 +449,8 @@ html{
     }
 
     .interests-text{
-        font-size: 18px;
+        font-size: 22px;
+        padding: 15px;
     }
 
     .interests-img{
