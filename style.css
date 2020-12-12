@@ -207,8 +207,8 @@ html{
     font-size: 16px;
 }
 
-.carousel-control-next:hover{
-    color: red;
+.fll-arrow{
+    opacity: 1;
 }
 
 /* portfolio */
