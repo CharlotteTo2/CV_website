@@ -1,20 +1,19 @@
 html{
     font-family: 'Patua One', cursive;
     letter-spacing: 2px;
-    padding: 70px;
+    padding: 10px;
     scroll-behavior: smooth;
-
 }
 
 .title1{
-    font-size: 52px;
+    margin-top: 20px;
+    font-size: 40px;
     text-align: center;
-    text-shadow: 3.5px 3.5px #b5b5b5;
-
+    font-weight: bolder;
 }
 
 .title2{
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
 
 }
@@ -22,17 +21,49 @@ html{
 .home-btn{
     display: block;
     margin: auto;
+    font-size: 22px;
+    padding: 10px;
     margin-bottom: 40px;
     margin-top: 40px;
     width: 200px;
 }
 
-.image1{
-    height: 500px;
-    margin: 10px;
+img{
+    width: 300px;
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
 }
 
-.image2{
-    height: 500px;
-    margin: 10px;
+
+/* Laptop */
+@media (min-width: 991px){
+    .title1{
+        font-size: 52px;
+    }
+    
+    .title2{
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 20px;
+        font-size: 40px;  
+    }
+    
+    .home-btn{
+        margin-bottom: 40px;
+        margin-top: 40px;
+        width: 200px;
+    }
+
+    .images{
+        width: fit-content;
+        margin: auto;
+    }
+    
+    img{
+        height: 500px;
+        width: auto;
+        margin: 10px;
+        display: inline;
+    }
 }
