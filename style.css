@@ -85,8 +85,6 @@ html{
     background-size: cover;
     height: 100%;
     filter: 1;
-
-
 }
 
 .intro-title{
@@ -374,19 +372,39 @@ html{
 
     /* intro */
     .intro{
-        padding: 100px, auto, 100px, auto;
-        background-attachment: fixed;
+        background-image: url(images/desktop-bg.jpg);
+        background-position: center bottom 50%;
+        /* background-attachment: fixed; */
 
+        padding: 100px, auto, 100px, auto;
     }
 
     .intro-title{
+        color: black;
         font-size: 52px;
         letter-spacing: 3.5px;
     }
 
     .subtitle-intro{
+        color: black;
         font-size: 27px;
         letter-spacing: 1.5px;
+        margin-bottom: 80px;
+    }
+
+    .line{
+        display: none;
+    }
+
+    .btn-intro{
+        background-color: black !important;
+        color: white !important;
+        border: black !important;
+    }
+
+    .btn-intro:hover{
+        background-color: white !important;
+        color: black !important;
     }
 
     /* about paragraph */
