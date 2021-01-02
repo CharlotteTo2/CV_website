@@ -103,6 +103,7 @@ html{
 
 .btn-intro{
     margin: 0.5rem;
+    scroll-padding-top: 30px;
 }
 
 .btn-intro:hover, .btn-intro:active, .btn-intro:focus{
