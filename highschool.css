@@ -12,6 +12,10 @@ html{
     font-weight: bolder;
 }
 
+.confetti{
+    cursor: pointer;
+}
+
 .title2{
     font-size: 30px;
     text-align: center;

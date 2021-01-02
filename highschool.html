@@ -13,10 +13,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
 
+    <script src="https://kit.fontawesome.com/817124c7d9.js" crossorigin="anonymous"></script>
+
     <title>Choose Me please!</title>
 </head>
 <body>
-    <h1 class="title1">Please choose me!</h1>
+    <h1 class="title1">Please choose me! <span class="confetti" onclick="startConfetti()">🎉</span></h1>
     <h1 class="title2">I can make a positive contribution to your school... including improving your website!!!</h1>
     
     <a href="index.html" class="home-btn btn btn-primary">Back Home</a>
@@ -29,6 +31,11 @@
     <script src="https://cdn.jsdelivr.net/gh/mathusummut/confetti.js/confetti.min.js"></script>
     <script>
         confetti.start(3000);
+
+        startConfetti = () => {
+            confetti.start(2000);
+        }
+
     </script>
 
 </body>
